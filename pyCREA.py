@@ -272,6 +272,9 @@ def check(correct, ans, alphabet, length=10):
           (この値以下の長さの系列に対して全探索で判定を行う)
           デフォルトは10(問題にもよるがこれくらいがちょうど良さそう).
     """
+    # 学生のした解答の正規表現を最後に表示で使うようにとっておく
+    ans_print = ans
+
     # 数学的な記法(計算理論及び演習での記法)の正規表現をPythonの記法に書き換える
     correct, ans = convert_to_python_notation(correct, ans)
 
@@ -293,7 +296,7 @@ def check(correct, ans, alphabet, length=10):
     # 受講生の解答の正規表現に対して判定の結果を表示する
     # (あくまで指定した長さ(length)以下での結果であることに注意する)
     print_result(alphabet, length,
-                 accidentally_rejected, accidentally_accepted, ans)
+                 accidentally_rejected, accidentally_accepted, ans_print)
 
 
 def check_multiple(input_filename, alphabet, length):
