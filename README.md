@@ -22,7 +22,7 @@
 
 ## 🧑‍💻 使用方法
 ### 1個ずつ判定する場合 (例: [example1.py][example1.py-url])
-1. pyCREA.pyを同じディレクトリに置いて、以下の[example1.py][example1.py-url]を作成します。
+1. 以下のような[example1.py][example1.py-url]を作成し、[pyCREA.py][pyCREA.py-url]を同じディレクトリに置きます。
 2. `python example1.py`で実行します。
 ```python
 import pyCREA
@@ -50,7 +50,7 @@ pyCREA.check(correct, ans, alphabet, length)  # 判定
 ```
 
 ### 複数個同時に判定する場合 (例: [example2.py][example2.py-url] + [example2_input.txt][example2_input.txt-url])
-1. pyCREA.pyを同じディレクトリに置いて、以下の[example2.py][example2.py-url]を作成します。
+1. 以下のような[example2.py][example2.py-url]を作成し、[pyCREA.py][pyCREA.py-url]を同じディレクトリに置きます。
 2. 1行目に正答の正規表現、2行目から下に学生の解答の正規表現を書いた[example2_input.txt][example2_input.txt-url]を作成します。
 3. `python example2.py`で実行します。
 ```python
@@ -147,6 +147,8 @@ GitHub関連
 [example2.py-url]: https://github.com/L3onSW/pyCREA/blob/master/example2.py
 <!-- example2_input.txt -->
 [example2_input.txt-url]: https://github.com/L3onSW/pyCREA/blob/master/example2_input.txt
+<!-- pyCREA.py -->
+[pyCREA.py-url]: https://github.com/L3onSW/pyCREA/blob/master/pyCREA.py
 
 <!-- 
 ------------------------------------------------------------------------
