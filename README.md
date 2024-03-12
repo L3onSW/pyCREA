@@ -21,8 +21,8 @@
     - 上記のように無駄なスペースがないものにしてください。
 
 ## 🧑‍💻 使用方法
-### 1個ずつ判定する場合 (例: example1.py)
-1. pyCREA.pyを同じディレクトリに置いて、以下のexample1.pyを作成します。
+### 1個ずつ判定する場合 (例: [example1.py][example1.py-url])
+1. pyCREA.pyを同じディレクトリに置いて、以下の[example1.py][example1.py-url]を作成します。
 2. `python example1.py`で実行します。
 ```python
 import pyCREA
@@ -49,9 +49,9 @@ ans = "(ε+0+1)*"  # 受講生の解答の正規表現
 pyCREA.check(correct, ans, alphabet, length)  # 判定
 ```
 
-### 複数個同時に判定する場合 (例: example2.py + example2_input.txt)
-1. pyCREA.pyを同じディレクトリに置いて、以下のexample2.pyを作成します。
-2. 1行目に正答の正規表現、2行目から下に学生の解答の正規表現を書いたexample2_input.txtを作成します。
+### 複数個同時に判定する場合 (例: [example2.py][example2.py-url] + [example2_input.txt][example2_input.txt-url])
+1. pyCREA.pyを同じディレクトリに置いて、以下の[example2.py][example2.py-url]を作成します。
+2. 1行目に正答の正規表現、2行目から下に学生の解答の正規表現を書いた[example2_input.txt][example2_input.txt-url]を作成します。
 3. `python example2.py`で実行します。
 ```python
 import pyCREA
@@ -64,7 +64,7 @@ pyCREA.check_multiple(input_file, alphabet, length)  # 判定
 ```
 
 ### 実行結果例
-example1.pyを実行した結果は以下のようになります。(example2.pyでも同様です。)
+[example1.py][example1.py-url]を実行した結果は以下のようになります。([example2.py][example2.py-url]でも同様です。)
 ```console
 L3on@MacBook:pyCREA$ python example1.py 
  (0+1+00+11+01+10)*111* は正しい可能性が高いです
@@ -142,11 +142,11 @@ GitHub関連
 [pull-requests-url]: https://github.com/L3onSW/pyCREA/pulls
 
 <!-- example1.py -->
-[license-url]: https://github.com/L3onSW/pyCREA/blob/master/LICENSE.txt
+[example1.py-url]: https://github.com/L3onSW/pyCREA/blob/master/example1.py
 <!-- example2.py -->
-[license-url]: https://github.com/L3onSW/pyCREA/blob/master/LICENSE.txt
+[example2.py-url]: https://github.com/L3onSW/pyCREA/blob/master/example2.py
 <!-- example2_input.txt -->
-[license-url]: https://github.com/L3onSW/pyCREA/blob/master/LICENSE.txt
+[example2_input.txt-url]: https://github.com/L3onSW/pyCREA/blob/master/example2_input.txt
 
 <!-- 
 ------------------------------------------------------------------------
