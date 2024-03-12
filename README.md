@@ -137,7 +137,7 @@ GitHub関連
 [issues-url]: https://github.com/L3onSW/pyCREA/issues
 <!-- License -->
 [license-shield]: https://img.shields.io/github/license/L3onSW/pyCREA.svg?style=for-the-badge
-[license-url]: https://github.com/L3onSW/pyCREA/blob/master/LICENSE.txt
+[license-url]: https://github.com/L3onSW/pyCREA/blob/master/LICENSE
 <!-- Pull Requests -->
 [pull-requests-url]: https://github.com/L3onSW/pyCREA/pulls
 
