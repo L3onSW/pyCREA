@@ -319,9 +319,9 @@ def check_multiple(input_filename, alphabet, length):
     check_list = f.readlines()
 
     # 入力ファイル1行目を正答の正規表現とする
-    correct = check_list[0].replace("¥n", "")
+    correct = check_list[0].replace("\n", "")
 
     # 入力ファイル2行目から順番に正答の正規表現と等価か調べる
     for i in range(1, len(check_list)):
-        ans = check_list[i].replace("¥n", "")
+        ans = check_list[i].replace("\n", "")
         check(correct, ans, alphabet, length=10)
