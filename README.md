@@ -1,9 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 # Checking Regular Expression Answers in Python (pyCREA)
 受講生の解答の正規表現に対して「正答の可能性が高い or 誤答である」を判定します。
 - [![python-shield]][python-url]で書かれています。
