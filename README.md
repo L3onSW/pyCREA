@@ -15,7 +15,7 @@
     - 上記のように無駄なスペースがないものにしてください。
 
 ## 🧑‍💻 使用方法
-### 1個ずつ判定する場合 (例: [example1.py][example1.py-url])
+### 1個ずつ判定する場合の実行方法 (例: [example1.py][example1.py-url])
 1. 以下のような[example1.py][example1.py-url]を作成し、[pyCREA.py][pyCREA.py-url]を同じディレクトリに置きます。
 2. `python example1.py`で実行します。
 ```python
@@ -43,7 +43,7 @@ ans = "(ε+0+1)*"  # 受講生の解答の正規表現
 pyCREA.check(correct, ans, alphabet, length)  # 判定
 ```
 
-### 複数個同時に判定する場合 (例: [example2.py][example2.py-url] + [example2_input.txt][example2_input.txt-url])
+### 複数個まとめて判定する場合の実行方法 (例: [example2.py][example2.py-url] + [example2_input.txt][example2_input.txt-url])
 1. 以下のような[example2.py][example2.py-url]を作成し、[pyCREA.py][pyCREA.py-url]を同じディレクトリに置きます。
 2. 1行目に正答の正規表現、2行目から下に学生の解答の正規表現を書いた[example2_input.txt][example2_input.txt-url]を作成します。
 3. `python example2.py`で実行します。
@@ -57,7 +57,7 @@ length = 10  # この長さ以下の系列を判定する
 pyCREA.check_multiple(input_file, alphabet, length)  # 判定
 ```
 
-### 実行結果例
+### 実行結果
 [example1.py][example1.py-url]を実行した結果は以下のようになります。([example2.py][example2.py-url]でも同様です。)
 ```console
 L3on@MacBook:pyCREA$ python example1.py 
